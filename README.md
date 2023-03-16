@@ -22,10 +22,15 @@ from sklearn.cluster import AgglomerativeClustering
 Los pasos que se realizan para el procesamiento de los datos son los siguientes:
 
 **1.** Carga de los datos iniciales obtenidos mediante small RNA-seq procesados con [ShortStack](https://github.com/MikeAxtell/ShortStack)
+
 **2.** Filtrado y limpieza de datos
+
 **3.** Análisis de Clustering de expresión de small RNAs provenientes de IRs en F.vesca
+
 **4.** Análisis de Expresión Diferencial, fuera de Colab, empleando el paquete [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) de R
+
 **5.** Cálculo de la distancia de los IRs diferencialmente expresados a genes anotados en F.vesca empleando bedtools
+
 
 **Resumen:**
 Los pasos y su ejecución están detallados en un notebook de Jupyter: IT_ProyectoFinal_WBDS2023.ipynb 
