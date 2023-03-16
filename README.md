@@ -5,7 +5,8 @@ Las secuenciaron se alinearon contra loci identificados previamente como IRs (re
 El objetivo es analizar los IRs que producen small RNAs, en particular de 24 nucleótidos, en las diferentes condiciones. Y por último, utilizando distintas herramientas bioinformáticas, se busca cuáles IRs tienen expresión diferencial en dos estadios de maduración del fruto, y cuántos de ellos están cerca de genes en frutilla, pudiendo afectar su expresión y la topología de la cromatina.
 
 
-# Preparación del entorno
+
+**0.** Preparación del entorno
 
 Para que el código funcione adecuadamente necesitamos importar las diferentes bibliotecas que se usarán para diversos análisis:
 
@@ -30,6 +31,7 @@ Los pasos que se realizan para el procesamiento de los datos son los siguientes:
 **4.** Análisis de Expresión Diferencial, fuera de Colab, empleando el paquete [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) de R
 
 **5.** Cálculo de la distancia de los IRs diferencialmente expresados a genes anotados en F.vesca empleando bedtools
+
 
 
 **Resumen:**
